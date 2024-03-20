@@ -9,7 +9,7 @@ Create an ESP32 project using the ESP32CAM.
 ## Equipment
 * [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
 
-* [USB C to USB C](https://www.apple.com/shop/product/MQKJ3AM/A/60w-usb-c-charge-cable-1-m?afid=p238%7CsgHxyj4XD-dc_mtid_1870765e38482_pcrid_652838197326_pgrid_147153194586_pntwk_g_pchan_local_pexid__&cid=aos-us-kwgo-pla-btb_lia--slid---product-MQKJ3AM/A)
+* [USB C to USB C Cable](https://www.apple.com/shop/product/MQKJ3AM/A/60w-usb-c-charge-cable-1-m?afid=p238%7CsgHxyj4XD-dc_mtid_1870765e38482_pcrid_652838197326_pgrid_147153194586_pntwk_g_pchan_local_pexid__&cid=aos-us-kwgo-pla-btb_lia--slid---product-MQKJ3AM/A)
 
 ## Link to Documentation Followed
 - [Random Nerd Tutorials - ](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)
@@ -28,4 +28,8 @@ Create an ESP32 project using the ESP32CAM.
 
 ## Problems
 1. First problem I had is that I was on the wrong serial, I just changed the port and it fixed that issue.
+
+2. Second problem I had was with connecting to the wifi, problem was mitagated but not removed by changing hotspot to 4G instead of 5G
+
+3. The third is when I tried to add the indicator lights to blink untill it successfully connected to the internet.
 
