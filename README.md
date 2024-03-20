@@ -20,16 +20,20 @@ Create an ESP32 project using the ESP32CAM to communicate with Whatsapp
 
 2. Then I tested the lights on the board.
    
-3. The third step I did was setting up the callmebot api before even writing the code.
+3. The third step I did was setting up the callmebot api before even writing the code. It is pretty easy to setup you just need to send a text to the bot on whatsapp, and it'll give you a link to insert into the esp32 code.
 
-4. Writing the code and troubleshooting the API
+4. Writing the code and troubleshooting the API (Instead of copy pasting it I wrote it manually from the site so I could understand how the code worked.)
 
-5. Adding light functionality to my code for it to blink when connecting and stop when it connected.
+5. Adding light functionality to my code for it to blink when connecting and stop when it connected.(I essentially looked for a flashing light function somewhere, the one I found was done in the loop but it just makes it flash forever.
+   So I took the blinking code and made some tweaks so it blinks slower, and moved it so it doesn't blink forever into the while loop.
+
+6. After that I used the verify option to find any errors in the code which some I found are listed below. The main errors where just with the lighting.
 
 ## Problems
-1. First problem I had is that I was on the wrong serial, I just changed the port and it fixed that issue.
+1. First problem I had is that I was on the wrong serial, I just changed the port and it fixed that issue. (On Mac its serial port 10 instead of 110, and for windows I believe its Com3)
 
-2. Second problem I had was with connecting to the wifi, problem was mitagated but not removed by changing hotspot to 4G instead of 5G
+2. Second problem I had was with connecting to the wifi, problem was mitagated but not removed by changing hotspot to 4G instead of 5G, this will only be a problem if you are using a phone hotspot.
 
-3. The third is when I tried to add the indicator lights to blink untill it successfully connected to the internet.
+3. The third is when I tried to add the indicator lights to blink untill it successfully connected to the internet. At first I tried to do it in the loop part but that just makes it infinitely loop.
+   So then I put it in the while connecting, under the main which is a while loop so the light blinks untill it has successfully connected to the internet.
 
