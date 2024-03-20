@@ -29,6 +29,8 @@ Create an ESP32 project using the ESP32CAM to communicate with Whatsapp
 
 6. After that I used the verify option to find any errors in the code which some I found are listed below. The main errors where just with the lighting.
 
+7. So when all of these are completed, you should be able to send messages to yourself on whatsapp or anyone else who allows that bot to send messages. Or make your own Bot and spam people if you want.
+
 ## Problems
 1. First problem I had is that I was on the wrong serial, I just changed the port and it fixed that issue. (On Mac its serial port 10 instead of 110, and for windows I believe its Com3)
 
