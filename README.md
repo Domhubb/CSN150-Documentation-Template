@@ -12,21 +12,20 @@ Create an ESP32 project using the ESP32CAM.
 * [USB C to USB C](https://www.apple.com/shop/product/MQKJ3AM/A/60w-usb-c-charge-cable-1-m?afid=p238%7CsgHxyj4XD-dc_mtid_1870765e38482_pcrid_652838197326_pgrid_147153194586_pntwk_g_pchan_local_pexid__&cid=aos-us-kwgo-pla-btb_lia--slid---product-MQKJ3AM/A)
 
 ## Link to Documentation Followed
-- [GitHub - martin-ger/esp32_nat_router](https://randomnerdtutorials.com/esp32-send-messages-whatsapp-sim7000g/)
-
-##### Youtube Video 1: 
-
-##### Youtube Video 2: 
-
-##### Other Links: 
-
+- [Random Nerd Tutorials - ](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)
+- [Last Minute Engineers - ](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. The first step I did was to test if my board even worked so I tried to do the camera project again, found out the board worked and not the camera.
+
+2. Then I tested the lights on the board.
+   
+3. The third step I did was setting up the callmebot api before even writing the code.
+
+4. Writing the code and troubleshooting the API
+
+5. Adding light functionality to my code for it to blink when connecting and stop when it connected.
 
 ## Problems
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
+1. First problem I had is that I was on the wrong serial, I just changed the port and it fixed that issue.
 
-Example
-1. Arduino code will not load on ESP32 Cam.
-   Answer: Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
