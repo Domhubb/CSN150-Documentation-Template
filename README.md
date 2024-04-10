@@ -9,11 +9,10 @@ Create an ESP32 project using the ESP32CAM to communicate with Whatsapp
 ## Equipment
 * [ESP32Cam](https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_3?crid=4FY0ECFW0ZX7&keywords=ESP32+Cam&qid=1678902050&sprefix=esp32+cam%2Caps%2C240&sr=8-3)
 
-* [USB C to USB C Cable](https://www.apple.com/shop/product/MQKJ3AM/A/60w-usb-c-charge-cable-1-m?afid=p238%7CsgHxyj4XD-dc_mtid_1870765e38482_pcrid_652838197326_pgrid_147153194586_pntwk_g_pchan_local_pexid__&cid=aos-us-kwgo-pla-btb_lia--slid---product-MQKJ3AM/A)
-
+* USB C to USB C Cable
 ## Link to Documentation Followed
-- [Random Nerd Tutorials - ](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)
-- [Last Minute Engineers - ](https://lastminuteengineers.com/esp32-arduino-ide-tutorial/)
+- [[Random Nerd Tutorials - ](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)](https://randomnerdtutorials.com/esp32-send-messages-whatsapp/)
+- (https://www.youtube.com/watch?v=1CWIgxkviuU)
 
 ## Steps I followed
 1. The first step I did was to test if my board even worked so I tried to do the camera project again, found out the board worked and not the camera.
