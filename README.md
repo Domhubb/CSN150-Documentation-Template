@@ -30,4 +30,8 @@ https://www.youtube.com/watch?v=Tp8CTeV5j1Q&t=183s
 8. Press the reset (RST) button on the ESP32 board, and wait for the successful network connection message.
 9. Finally, Look at your phone for your message!
 
-  
+## Pictures of Project
+![230D9614-0BC2-4E40-A1F8-2834A5D72CEA](https://github.com/Domhubb/CSN150-Documentation-Template/assets/166040147/d27069a9-d265-409e-b68a-7a2409f32314)
+![midterm pic](https://github.com/Domhubb/CSN150-Documentation-Template/assets/166040147/56a0d5c4-d6be-4a8e-8c04-b79570bb43a9)
+
+
