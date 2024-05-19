@@ -20,11 +20,12 @@ https://www.youtube.com/watch?v=1CWIgxkviuU
 https://www.youtube.com/watch?v=Tp8CTeV5j1Q&t=183s 
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
-
+1. Add this phone number +34 621 331 709 to your Phone Contacts. This is the number of the Api Bot
+2. Send the authorization message: “I allow callmebot to send me messages”, to the Api Bot contact. 
+3. Wait until you receive the message “API Activated for your phone number", and the Api key from the Bot
+4. 
 ## Problems
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
 
 Example
-1. Arduino code will not load on ESP32 Cam.
-   Answer: Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
+  
