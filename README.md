@@ -23,9 +23,11 @@ https://www.youtube.com/watch?v=Tp8CTeV5j1Q&t=183s
 1. Add this phone number +34 621 331 709 to your Phone Contacts. This is the number of the Api Bot
 2. Send the authorization message: “I allow callmebot to send me messages”, to the Api Bot contact. 
 3. Wait until you receive the message “API Activated for your phone number", and the Api key from the Bot
-4. 
-## Problems
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
+4. Now you need to prepare the ESP32 code. Open the Arduino IDE. Go to Sketch > Include Library > Manage Libraries and Search for URLEncode library by Masayuki Sugahara and install it.
+5. Next copy and paste the example code from "random nerd tutorials", and insert your network SSID and password, phone number, and API key.
+6. Select your board and port, and upload the code to your ESP32.
+7. Open the Serial Monitor in Arduino and set the baud rate to 115200.
+8. Press the reset (RST) button on the ESP32 board, and wait for the successful network connection message.
+9. Finally, Look at your phone for your message!
 
-Example
   
