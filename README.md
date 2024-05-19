@@ -17,9 +17,7 @@ To send messages from the ESP32 to send messages to WhatsApp using CallMeBot
 ##### Youtube Video 1: 
 https://www.youtube.com/watch?v=1CWIgxkviuU
 ##### Youtube Video 2: 
-
-##### Other Links: 
-
+https://www.youtube.com/watch?v=Tp8CTeV5j1Q&t=183s 
 
 ## Steps I followed
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
